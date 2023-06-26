@@ -5,3 +5,4 @@ Java-Coding-Practice
 ##### Q.2:- WAP to test given string is Palindromes or not.
 ##### Q.3:- WAP to test numberPalindrome.
 ##### Q.4:- WAP to check given two string are Anagrams or not.
+##### Q.5:- WAP to Extract anagrams from given list.
