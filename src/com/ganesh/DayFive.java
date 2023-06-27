@@ -1,6 +1,6 @@
 package com.ganesh;
 
-// Problem:- WAP to map List to Map;
+// Problem:- WAP to map Two Different List to HashMap;
 // example name list is [ganesh, aryan, prince] and number list is [26, 13, 12]
 // output is {ganesh: 26, aryan: 13, prince: 12 }
 
