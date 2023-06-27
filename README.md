@@ -6,3 +6,4 @@ Java-Coding-Practice
 ##### Q.3:- WAP to test numberPalindrome.
 ##### Q.4:- WAP to check given two string are Anagrams or not.
 ##### Q.5:- WAP to Extract anagrams from given list.
+##### Q.6:- WAP to map Two Different List to HashMap.
