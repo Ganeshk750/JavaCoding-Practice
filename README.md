@@ -7,3 +7,4 @@ Java-Coding-Practice
 ##### Q.4:- WAP to check given two string are Anagrams or not.
 ##### Q.5:- WAP to Extract anagrams from given list.
 ##### Q.6:- WAP to map Two Different List to HashMap.
+##### Q.7:- WAP to validate Valid Parentheses.
