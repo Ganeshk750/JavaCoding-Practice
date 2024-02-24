@@ -4,7 +4,7 @@ import java.util.Stack;
 
 // Problem:- WAP to validate Valid Parentheses;
 // Example String inputA = "({[]})" is valid and String inputB = "([)]" invalid
-public class DaySix {
+public class ValidateBrackets {
     public static void main(String[] args) {
         String inputA = "({[]})";
         String inputB = "([)]";
