@@ -9,3 +9,4 @@ Java-Coding-Practice
 ##### Q.6:- WAP to map Two Different List to HashMap.
 ##### Q.7:- WAP to validate Valid Parentheses.
 ##### Q.8:- WAP to count the occurrence of each character in string.
+##### Q.9:- WAP Find All the Permutations of a String.
