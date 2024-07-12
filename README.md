@@ -11,3 +11,4 @@ Java-Coding-Practice
 ##### Q.8:- WAP to count the occurrence of each character in string.
 ##### Q.9:- WAP Find All the Permutations of a String.
 ##### Q.10:- WAP to Count Vowels and Consonants in a String.
+##### Q.11:- WAP to Merge Two String Arrays.
