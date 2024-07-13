@@ -13,3 +13,4 @@ Java-Coding-Practice
 ##### Q.10:- WAP to Count Vowels and Consonants in a String.
 ##### Q.11:- WAP to Merge Two String Arrays.
 ##### Q.12:- WAP to Find the First Non-repeated Character in a String.
+##### Q.13:- WAP to Find Duplicate Characters in a String.
