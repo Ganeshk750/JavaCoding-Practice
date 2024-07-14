@@ -12,6 +12,9 @@ public class MergeTwoArrays {
 
         // 1. Approach
         mergingArrayUsingLoop(array1, array2);
+
+        // 2. Approach
+        mergeArraysUsingArrayCopy(array1, array2);
     }
 
     private static void mergingArrayUsingLoop(String[] array1, String[] array2){
@@ -29,6 +32,18 @@ public class MergeTwoArrays {
         // Printing the merged array
         System.out.println("Merged String Array using Loop: ");
         for (String element : mergedArray) {
+            System.out.print(element + " ");
+        }
+    }
+
+    private static void mergeArraysUsingArrayCopy(String[] array1, String[] array2){
+       String [] mergedArray = new String[array1.length + array2.length];
+       System.arraycopy(array1, 0, mergedArray, 0, array1.length);
+       System.arraycopy(array2, 0, mergedArray, array1.length,array2.length);
+
+       // Print the merged array
+        System.out.println("Merged Array using arraycopy: ");
+        for(String element: mergedArray){
             System.out.print(element + " ");
         }
     }
