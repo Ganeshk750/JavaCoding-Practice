@@ -4,6 +4,9 @@ package com.ganesh;
 // Example:- array1 = {"Java", "is", "fun"}; array2 = {"and", "powerful"};
 // output:- "Java is fun and powerful"
 
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 public class MergeTwoArrays {
     public static void main(String[] args) {
 
@@ -14,7 +17,10 @@ public class MergeTwoArrays {
         //mergingArrayUsingLoop(array1, array2);
 
         // 2. Approach
-        mergeArraysUsingArrayCopy(array1, array2);
+        //mergeArraysUsingArrayCopy(array1, array2);
+
+        // 3. Approach
+        mergeArraysUsingStreams(array1, array2);
     }
 
     private static void mergingArrayUsingLoop(String[] array1, String[] array2){
@@ -45,6 +51,18 @@ public class MergeTwoArrays {
         System.out.println("Merged Array using arraycopy: ");
         for(String element: mergedArray){
             System.out.print(element + " ");
+        }
+    }
+
+    private static void mergeArraysUsingStreams(String[] array1, String[] array2) {
+
+        String[] mergedArray = Stream.concat(Arrays.stream(array1), Arrays.stream(array2))
+                .toArray(String[]::new);
+
+        // Print merged array
+        System.out.println("Merged Array using streams: ");
+        for (String ele: mergedArray){
+            System.out.print(ele+" ");
         }
     }
 }
