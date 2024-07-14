@@ -11,7 +11,7 @@ public class MergeTwoArrays {
         String[] array2 = {"and", "powerful"};
 
         // 1. Approach
-        //mergingArrayUsingLoop(array1, array2);
+        mergingArrayUsingLoop(array1, array2);
 
         // 2. Approach
         mergeArraysUsingArrayCopy(array1, array2);
