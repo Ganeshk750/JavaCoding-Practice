@@ -16,4 +16,4 @@ Java-Coding-Practice
 ##### Q.13:- WAP to Find Duplicate Characters in a String.
 ##### Q.14:- WAP to Check if a String Contains Only Digits in Java.
 ##### Q.15:- WAP to Find Maximum Occurring Character in String. 
-##### Q.16:- WAP to Find the First Non-repeated Character in a String.
+##### Q.16:- WAP to Find the First Non-repeated Character in a String. 
