@@ -19,3 +19,4 @@ Java-Coding-Practice
 ##### Q.16:- WAP to Find the First Non-repeated Character in a String. 
 ##### Q.17:- WAP to Count Number of Words in Given String.
 ##### Q.18:- WAP to Reverse Each Word of a String.
+##### Q.19:- WAP to Swape Two String.
