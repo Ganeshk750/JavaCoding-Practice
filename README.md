@@ -20,3 +20,4 @@ Java-Coding-Practice
 ##### Q.17:- WAP to Count Number of Words in Given String.
 ##### Q.18:- WAP to Reverse Each Word of a String.
 ##### Q.19:- WAP to Swap Two String.
+##### Q.20:- WAP to Remove All Whitespaces from a String.
