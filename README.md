@@ -23,3 +23,4 @@
 ##### Q.20:- WAP to Remove All Whitespaces from a String.
 ##### Q.21:- WAP to check if a string is empty or null.
 ##### Q.22:- WAP to display characters from A to Z using Loop.
+##### Q.23:- WAP to count the occurrences of each character using HashMap.
