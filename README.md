@@ -27,3 +27,4 @@
 
 ##### ⭐ Using Java 8 ⭐ #####
 ##### Q. To check if two strings are anagrams in Java 8.
+##### Q. To extract the vowels from a given string in Java 8.
