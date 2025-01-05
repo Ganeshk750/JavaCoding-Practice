@@ -29,3 +29,4 @@
 ##### Q. To check if two strings are anagrams in Java 8.
 ##### Q. To extract the vowels from a given string in Java 8.
 ##### Q. To count the words from a given string in java 8.
+##### Q. To Move zero element to right in List in java 8.

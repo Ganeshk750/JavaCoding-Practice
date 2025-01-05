@@ -11,6 +11,5 @@ public class CountWords {
 
     private static long countWordFromString(String str) {
         return Arrays.stream(str.split(" ")).count();
-
     }
 }
