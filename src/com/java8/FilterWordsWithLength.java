@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 *  String of length 4: String eg:- zebra....
 *  String of length 6: String eg:- rabbit...
 * */
-public class Test {
+public class FilterWordsWithLength {
     public static void main(String[] args) {
         // 1. Using java 8
         List<String> stringList = Arrays.asList("dog", "cat", "elephant", "rabbit", "fox", "owl", "ant", "zebra", "giraffe");
