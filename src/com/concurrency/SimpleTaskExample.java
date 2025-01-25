@@ -27,7 +27,8 @@ public class SimpleTaskExample {
           if(!executorService.awaitTermination(60, TimeUnit.SECONDS));
           executorService.shutdown();
         }catch (InterruptedException e){
-            e.printStackTrace();
+           // e.printStackTrace();
+            executorService.shutdown();
         }
     }
 }
