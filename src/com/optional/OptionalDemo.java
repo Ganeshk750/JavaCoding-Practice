@@ -36,5 +36,47 @@ public class OptionalDemo {
         queryResult.ifPresentOrElse(value -> System.out.println("Found Data: "+ value),
                 () -> System.out.println("No data found. Redirecting to default view."));
 
+        // Example 1
+        example1(Optional.of("Java Programming"));
+        // Example 2
+        example2WithEmpty(Optional.empty());
+        // Example 3
+        example3WithNullable(Optional.ofNullable(null));
+        // Example 4
+        example4WithActionHandling(Optional.of("Data found"));
+
+    }
+
+    public static void example1(Optional<String> optional){
+        // Using ifPresent Value to log value
+        optional.ifPresent(value -> System.out.println("Value is present: "+ value));
+
+        // using ifPresentOrElse to handle present and absent case
+        optional.ifPresentOrElse(value -> System.out.println("Processing value: "+ value),
+                () -> System.out.println("No value found"));
+    }
+    public static void example2WithEmpty(Optional<String> optional){
+        optional.ifPresent(value -> System.out.println("Value is present: "+ value));
+        optional.ifPresentOrElse(value -> System.out.println("Processing value : "+ value),
+                () -> System.out.println("No value found."));
+    }
+    public static void example3WithNullable(Optional<String> optional){
+        optional.ifPresent(value -> System.out.println("Value exists: "+ value));
+        optional.ifPresentOrElse(value -> System.out.println("Processing Value : "+ value),
+                () -> System.out.println("Handling null or missing value"));
+    }
+    public static void example4WithActionHandling(Optional<String> optional){
+        optional.ifPresent(value -> {
+            System.out.println("Logging presence of value: "+ value);
+        });
+
+        optional.ifPresentOrElse(value -> {
+            System.out.println("Processing found value: "+ value);
+                    System.out.println("Data has been processed.");
+           },
+                () -> {
+                    System.out.println("No value to process.");
+                    System.out.println("Fallback action executed.");
+                } );
     }
 }
