@@ -19,7 +19,8 @@ public class CommonItemInTwoMaps {
         System.out.println("Map Two: "+ mapTwo);
         Map<String, Integer> commonMap = mapOne.entrySet().stream()
                 .filter(ele -> mapTwo.containsKey(ele.getKey()))
-                .collect(Collectors.toMap(ele -> ele.getKey(), ele -> ele.getValue()));
+               // .collect(Collectors.toMap(ele -> ele.getKey(), ele -> ele.getValue()));
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
         System.out.println("commonMap: "+ commonMap);
     }
 }
