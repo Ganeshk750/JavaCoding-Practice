@@ -1,8 +1,25 @@
 package com.enhancement;
 
+import java.util.Optional;
+
 public class OptionalAPIChanges {
     public static void main(String[] args) {
+      var student = getStudentName("Ganesh");
+      if(student !=null){
+          System.out.println(student.getFirstName());
+      }else{
+          System.out.println("No Student with the given name");
+      }
 
+      Optional.ofNullable(getStudentName("Ganesh")).orElseThrow(() -> new RuntimeException("Student is not found"));
+    }
+
+    public static Student getStudentName(String name){
+        if(name.equals("Ganesh") || name.equals("Kumar")){
+            return new Student(111, "Ganesh", "Kumar");
+        }else{
+            return null;
+        }
     }
 }
 
